@@ -25,9 +25,11 @@ const HomeScreen = ({navigation}) => {
           }}>
           <TouchableOpacity
             style={{
+              marginBottom: 30,
               borderWidth: 3,
               borderColor: '#fff',
               borderRadius: 20,
+              backgroundColor: 'rgba(255, 255, 255, 0.5)',
               width: 250,
               alignItems: 'center',
               justifyContent: 'center',
@@ -45,7 +47,7 @@ const HomeScreen = ({navigation}) => {
                 shadowOpacity: 0.9,
                 shadowRadius: 10,
               }}>
-              Game
+              Play
             </Text>
           </TouchableOpacity>
 
@@ -54,6 +56,7 @@ const HomeScreen = ({navigation}) => {
               borderWidth: 3,
               borderColor: '#fff',
               borderRadius: 20,
+              backgroundColor: 'rgba(255, 255, 255, 0.5)',
               width: 250,
               alignItems: 'center',
               justifyContent: 'center',
