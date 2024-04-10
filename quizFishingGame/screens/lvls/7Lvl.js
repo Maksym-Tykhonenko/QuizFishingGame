@@ -166,15 +166,15 @@ const Lvl7 = ({navigation}) => {
           style={{
             borderWidth: 3,
             borderRadius: 15,
-            borderColor: '#ed9b01',
+            borderColor: '#44a941',
             backgroundColor: 'rgba(255, 255, 255, 0.7)',
           }}>
           <Text
             style={{
               fontSize: 30,
-              fontFamily: 'Chewy-Regular',
-              //marginBottom: 20,
-              color: '#ed9b01',
+              fontWeight: 'bold',
+              padding: 5,
+              color: '#44a941',
             }}>
             {question.question}
           </Text>
@@ -186,7 +186,7 @@ const Lvl7 = ({navigation}) => {
             alignItems: 'center',
             borderWidth: 3,
             borderRadius: 15,
-            borderColor: '#ed9b01',
+            borderColor: '#44a941',
             backgroundColor: 'rgba(255, 255, 255, 0.7)',
           }}>
           <ScrollView>
@@ -197,9 +197,9 @@ const Lvl7 = ({navigation}) => {
                 onPress={() => checkAnswer(option)}>
                 <Text
                   style={{
-                    fontFamily: 'Chewy-Regular',
+                    fontWeight: 'bold',
                     fontSize: 40,
-                    color: '#ed9b01',
+                    color: '#44a941',
                   }}>
                   {option}
                 </Text>
@@ -219,7 +219,7 @@ const Lvl7 = ({navigation}) => {
       Alert.alert('Correct!');
     } else {
       //Alert.alert('Incorrect answer. Try again.');
-      navigation.navigate('WrongScreen');
+      navigation.navigate('Wrong');
     }
 
     if (currentQuestionIndex + 1 < questions.length) {
@@ -252,10 +252,10 @@ const Lvl7 = ({navigation}) => {
           }}>
           <Text
             style={{
-              color: '#ed9b01',
-              fontFamily: 'Chewy-Regular',
+              color: '#44a941',
+              fontWeight: 'bold',
               fontSize: 45,
-              //shadowColor: '#ed9b01',
+              //shadowColor: '#44a941',
               shadowOffset: {width: 0, height: 6},
               shadowOpacity: 9,
               shadowRadius: 20,
@@ -275,9 +275,9 @@ const Lvl7 = ({navigation}) => {
                     alignItems: 'center',
                     height: 70,
                     width: 120,
-                    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+                    backgroundColor: 'rgba(255, 255, 255, 0.7)',
                     borderWidth: 2,
-                    borderColor: '#fff',
+                    borderColor: '#44a941',
                     borderRadius: 20,
                     shadowColor: '#fff',
                     shadowOffset: {width: 0, height: 18},
@@ -287,10 +287,10 @@ const Lvl7 = ({navigation}) => {
                   onPress={handleChangeTimerRunState}>
                   <Text
                     style={{
-                      color: '#ed9b01',
-                      fontFamily: 'Chewy-Regular',
+                      color: '#44a941',
+                      fontWeight: 'bold',
                       fontSize: 45,
-                      shadowColor: '#ed9b01',
+                      shadowColor: '#44a941',
                       shadowOffset: {width: 0, height: 18},
                       shadowOpacity: 0.9,
                       shadowRadius: 20,
@@ -308,9 +308,9 @@ const Lvl7 = ({navigation}) => {
                     alignItems: 'center',
                     height: 70,
                     width: 120,
-                    backgroundColor: 'rgba(255, 255, 255, 0.5)',
+                    backgroundColor: 'rgba(255, 255, 255, 0.7)',
                     borderWidth: 2,
-                    borderColor: '#fff',
+                    borderColor: '#44a941',
                     borderRadius: 20,
                     shadowColor: '#fff',
                     shadowOffset: {width: 0, height: 18},
@@ -320,10 +320,10 @@ const Lvl7 = ({navigation}) => {
                   onPress={handleChangeTimerRunState}>
                   <Text
                     style={{
-                      color: '#ed9b01',
-                      fontFamily: 'Chewy-Regular',
+                      color: '#44a941',
+                      fontWeight: 'bold',
                       fontSize: 45,
-                      shadowColor: '#ed9b01',
+                      shadowColor: '#44a941',
                       shadowOffset: {width: 0, height: 18},
                       shadowOpacity: 0.9,
                       shadowRadius: 20,
@@ -334,10 +334,10 @@ const Lvl7 = ({navigation}) => {
               )}
               <View
                 style={{
-                  borderColor: '#fff',
+                  borderColor: '#44a941',
                   borderRadius: 20,
                   borderWidth: 2,
-                  backgroundColor: 'rgba(255, 255, 255, 0.5)',
+                  backgroundColor: 'rgba(255, 255, 255, 0.7)',
                   alignItems: 'center',
                   justifyContent: 'center',
                   height: 70,
@@ -350,9 +350,9 @@ const Lvl7 = ({navigation}) => {
                 <Text
                   style={{
                     fontSize: 45,
-                    color: '#ed9b01',
-                    fontFamily: 'Chewy-Regular',
-                    shadowColor: '#ed9b01',
+                    color: '#44a941',
+                    fontWeight: 'bold',
+                    shadowColor: '#44a941',
                     shadowOffset: {width: 0, height: 18},
                     shadowOpacity: 0.9,
                     shadowRadius: 20,
@@ -374,9 +374,9 @@ const Lvl7 = ({navigation}) => {
               bottom: 10,
               right: 10,
               borderWidth: 2,
-              borderColor: '#fff',
+              borderColor: '#44a941',
               borderRadius: 20,
-              backgroundColor: 'rgba(255, 255, 255, 0.5)',
+              backgroundColor: 'rgba(255, 255, 255, 0.7)',
               alignItems: 'center',
               justifyContent: 'center',
               paddingHorizontal: 10,
@@ -391,9 +391,9 @@ const Lvl7 = ({navigation}) => {
             <Text
               style={{
                 fontSize: 40,
-                fontFamily: 'Chewy-Regular',
-                color: '#ed9b01',
-                shadowColor: '#ed9b01',
+                fontWeight: 'bold',
+                color: '#44a941',
+                shadowColor: '#44a941',
                 shadowOffset: {width: 0, height: 18},
                 shadowOpacity: 0.9,
                 shadowRadius: 20,
@@ -401,55 +401,6 @@ const Lvl7 = ({navigation}) => {
               Back
             </Text>
           </TouchableOpacity>
-          <Modal animationType="fade" transparent={true} visible={modalIsClose}>
-            <View
-              style={{
-                backgroundColor: 'rgba(255, 255, 255, 0.7)',
-                flex: 1,
-                justifyContent: 'center',
-                marginRight: '5%',
-                marginLeft: '5%',
-                marginVertical: '50%',
-                paddingLeft: 10,
-                borderRadius: 20,
-                borderWidth: 2,
-                borderColor: '#fff',
-                shadowColor: '#fff',
-                shadowOffset: {width: 0, height: 18},
-                shadowOpacity: 0.9,
-                shadowRadius: 20,
-              }}>
-              <TouchableOpacity
-                onPress={() => {
-                  setModalIsClose(!modalIsClose);
-                }}>
-                <Text
-                  style={{
-                    fontSize: 40,
-                    fontFamily: 'Chewy-Regular',
-                    color: '#ed9b01',
-                    shadowColor: '#ed9b01',
-                    shadowOffset: {width: 0, height: 18},
-                    shadowOpacity: 0.9,
-                    shadowRadius: 20,
-                  }}>
-                  Winter fishing 1.1
-                </Text>
-                <Text
-                  style={{
-                    fontSize: 40,
-                    fontFamily: 'Chewy-Regular',
-                    color: '#ed9b01',
-                    shadowColor: '#ed9b01',
-                    shadowOffset: {width: 0, height: 18},
-                    shadowOpacity: 0.9,
-                    shadowRadius: 20,
-                  }}>
-                  Tab for go to game
-                </Text>
-              </TouchableOpacity>
-            </View>
-          </Modal>
         </View>
       </ImageBackground>
     </View>

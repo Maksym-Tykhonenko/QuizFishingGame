@@ -27,9 +27,9 @@ const HomeScreen = ({navigation}) => {
             style={{
               marginBottom: 30,
               borderWidth: 3,
-              borderColor: '#fff',
+              borderColor: '#44a941',
               borderRadius: 20,
-              backgroundColor: 'rgba(255, 255, 255, 0.5)',
+              backgroundColor: 'rgba(255, 255, 255, 0.7)',
               width: 250,
               alignItems: 'center',
               justifyContent: 'center',
@@ -41,8 +41,8 @@ const HomeScreen = ({navigation}) => {
               style={{
                 fontSize: 70,
                 fontWeight: 'bold',
-                color: '#ed9b01',
-                shadowColor: '#ed9b01',
+                color: '#44a941',
+                shadowColor: '#44a941',
                 shadowOffset: {width: 0, height: 18},
                 shadowOpacity: 0.9,
                 shadowRadius: 10,
@@ -54,9 +54,9 @@ const HomeScreen = ({navigation}) => {
           <TouchableOpacity
             style={{
               borderWidth: 3,
-              borderColor: '#fff',
+              borderColor: '#44a941',
               borderRadius: 20,
-              backgroundColor: 'rgba(255, 255, 255, 0.5)',
+              backgroundColor: 'rgba(255, 255, 255, 0.7)',
               width: 250,
               alignItems: 'center',
               justifyContent: 'center',
@@ -68,8 +68,8 @@ const HomeScreen = ({navigation}) => {
               style={{
                 fontSize: 70,
                 fontWeight: 'bold',
-                color: '#ee9b01',
-                shadowColor: '#ed9b01',
+                color: '#44a941',
+                shadowColor: '#44a941',
                 shadowOffset: {width: 0, height: 18},
                 shadowOpacity: 0.9,
                 shadowRadius: 20,
@@ -84,9 +84,9 @@ const HomeScreen = ({navigation}) => {
               top: 40,
               left: 20,
               borderWidth: 2,
-              borderColor: '#fff',
+              borderColor: '#44a941',
               borderRadius: 20,
-              backgroundColor: 'rgba(255, 255, 255, 0.5)',
+              backgroundColor: 'rgba(255, 255, 255, 0.7)',
               alignItems: 'center',
               justifyContent: 'center',
               width: 90,
@@ -101,7 +101,7 @@ const HomeScreen = ({navigation}) => {
             }}>
             <MaterialCommunityIcons
               name="face-man"
-              style={{fontSize: 70, color: '#ed9b01'}}
+              style={{fontSize: 70, color: '#44a941'}}
             />
           </TouchableOpacity>
         </View>

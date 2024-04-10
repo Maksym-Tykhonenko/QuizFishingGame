@@ -167,7 +167,7 @@ const ProfileScreen = ({navigation}) => {
                 marginTop: 50,
                 borderWidth: 3,
                 borderRadius: 15,
-                borderColor: '#fff',
+                borderColor: '#44a941',
                 alignItems: 'center',
                 justifyContent: 'center',
                 shadowColor: '#fff',
@@ -178,7 +178,7 @@ const ProfileScreen = ({navigation}) => {
               }}>
               <Text
                 style={{
-                  color: '#ed9b01',
+                  color: '#44a941',
 
                   fontSize: 40,
                 }}>
@@ -186,7 +186,7 @@ const ProfileScreen = ({navigation}) => {
               </Text>
               <Text
                 style={{
-                  color: '#ed9b01',
+                  color: '#44a941',
 
                   fontSize: 40,
                 }}>
@@ -204,7 +204,7 @@ const ProfileScreen = ({navigation}) => {
                 marginTop: 50,
                 borderWidth: 3,
                 borderRadius: 15,
-                borderColor: '#fff',
+                borderColor: '#44a941',
                 alignItems: 'center',
                 justifyContent: 'center',
                 shadowColor: '#fff',
@@ -219,7 +219,7 @@ const ProfileScreen = ({navigation}) => {
                   height: 250,
                   borderWidth: 3,
                   borderRadius: 15,
-                  borderColor: '#fff',
+                  borderColor: '#44a941',
                 }}
                 source={{uri: wallpaper}}
               />
@@ -243,7 +243,7 @@ const ProfileScreen = ({navigation}) => {
                   height: 200,
                   borderRadius: 150,
                   borderWidth: 3,
-                  borderColor: '#fff',
+                  borderColor: '#44a941',
                 }}
                 source={{uri: avatar}}
               />
@@ -273,7 +273,7 @@ const ProfileScreen = ({navigation}) => {
                   paddingLeft: 10,
                   fontSize: 20,
                   borderWidth: 3,
-                  borderColor: '#fff',
+                  borderColor: '#44a941',
                   color: '#000',
                   backgroundColor: 'rgba(255, 255, 255, 0.7)',
                   borderRadius: 15,
@@ -297,7 +297,7 @@ const ProfileScreen = ({navigation}) => {
             <View>
               <Text
                 style={{
-                  color: '#ed9b01',
+                  color: '#44a941',
                   fontWeight: 'bold',
                   fontSize: 60,
                 }}>
@@ -314,7 +314,7 @@ const ProfileScreen = ({navigation}) => {
               }}
               style={{
                 borderWidth: 2,
-                borderColor: '#fff',
+                borderColor: '#44a941',
                 borderRadius: 20,
                 backgroundColor: 'rgba(255, 255, 255, 0.7)',
                 alignItems: 'center',
@@ -327,7 +327,7 @@ const ProfileScreen = ({navigation}) => {
               }}>
               <Text
                 style={{
-                  color: '#ed9b01',
+                  color: '#44a941',
                   fontSize: 35,
                 }}>
                 Tab to enter the result
@@ -342,14 +342,14 @@ const ProfileScreen = ({navigation}) => {
                       style={{
                         marginTop: 10,
                         borderWidth: 3,
-                        borderColor: '#fff',
+                        borderColor: '#44a941',
                         borderRadius: 20,
                         backgroundColor: 'rgba(255, 255, 255, 0.7)',
                       }}
                       key={uid()}>
                       <Text
                         style={{
-                          color: '#ed9b01',
+                          color: '#44a941',
 
                           fontSize: 30,
                         }}>
@@ -357,7 +357,7 @@ const ProfileScreen = ({navigation}) => {
                       </Text>
                       <Text
                         style={{
-                          color: '#ed9b01',
+                          color: '#44a941',
 
                           fontSize: 35,
                         }}>
@@ -377,7 +377,7 @@ const ProfileScreen = ({navigation}) => {
               bottom: 10,
               right: 10,
               borderWidth: 2,
-              borderColor: '#fff',
+              borderColor: '#44a941',
               borderRadius: 20,
               backgroundColor: 'rgba(255, 255, 255, 0.7)',
               alignItems: 'center',
@@ -394,8 +394,8 @@ const ProfileScreen = ({navigation}) => {
             <Text
               style={{
                 fontSize: 40,
-                color: '#ed9b01',
-                shadowColor: '#ed9b01',
+                color: '#44a941',
+                shadowColor: '#44a941',
                 shadowOffset: {width: 0, height: 18},
                 shadowOpacity: 0.9,
                 shadowRadius: 20,
@@ -414,15 +414,15 @@ const ProfileScreen = ({navigation}) => {
                 position: 'relative',
                 alignItems: 'center',
                 paddingTop: 40,
-                backgroundColor: '#54d2dd',
+                backgroundColor: 'rgba(255, 255, 255, 0.9)',
                 flex: 1,
                 marginRight: '5%',
                 marginLeft: '5%',
                 marginTop: '35%',
                 marginBottom: '35%',
                 borderRadius: 15,
-                borderWidth: 3,
-                borderColor: '#fff',
+                borderWidth: 5,
+                borderColor: '#44a941',
               }}>
               <TouchableOpacity
                 onPress={() => {
@@ -434,7 +434,7 @@ const ProfileScreen = ({navigation}) => {
                   right: 10,
                   marginTop: 15,
                   borderWidth: 2,
-                  borderColor: '#fff',
+                  borderColor: '#44a941',
                   borderRadius: 20,
                   backgroundColor: 'rgba(255, 255, 255, 0.7)',
                   alignItems: 'center',
@@ -451,8 +451,8 @@ const ProfileScreen = ({navigation}) => {
                   style={{
                     fontSize: 40,
 
-                    color: '#ed9b01',
-                    shadowColor: '#ed9b01',
+                    color: '#44a941',
+                    shadowColor: '#44a941',
                     shadowOffset: {width: 0, height: 18},
                     shadowOpacity: 0.9,
                     shadowRadius: 20,
@@ -478,7 +478,7 @@ const ProfileScreen = ({navigation}) => {
                     paddingLeft: 10,
                     fontSize: 20,
                     borderWidth: 3,
-                    borderColor: '#fff',
+                    borderColor: '#44a941',
                     color: '#000',
                     backgroundColor: 'rgba(255, 255, 255, 0.7)',
                     borderRadius: 15,
@@ -508,7 +508,7 @@ const ProfileScreen = ({navigation}) => {
                   style={{
                     marginTop: 15,
                     borderWidth: 2,
-                    borderColor: '#fff',
+                    borderColor: '#44a941',
                     borderRadius: 20,
                     backgroundColor: 'rgba(255, 255, 255, 0.7)',
                     alignItems: 'center',
@@ -523,8 +523,8 @@ const ProfileScreen = ({navigation}) => {
                     style={{
                       fontSize: 40,
 
-                      color: '#ed9b01',
-                      shadowColor: '#ed9b01',
+                      color: '#44a941',
+                      shadowColor: '#44a941',
                       shadowOffset: {width: 0, height: 18},
                       shadowOpacity: 0.9,
                       shadowRadius: 20,

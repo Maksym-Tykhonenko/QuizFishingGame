@@ -178,7 +178,7 @@ const Lvl1 = ({navigation}) => {
           style={{
             borderWidth: 3,
             borderRadius: 15,
-            borderColor: '#ed9b01',
+            borderColor: '#44a941',
             backgroundColor: 'rgba(255, 255, 255, 0.7)',
           }}>
           <Text
@@ -187,7 +187,7 @@ const Lvl1 = ({navigation}) => {
               fontWeight: 'bold',
               padding: 5,
               //marginBottom: 20,
-              color: '#ed9b01',
+              color: '#44a941',
             }}>
             {question.question}
           </Text>
@@ -199,7 +199,7 @@ const Lvl1 = ({navigation}) => {
             alignItems: 'center',
             borderWidth: 3,
             borderRadius: 15,
-            borderColor: '#ed9b01',
+            borderColor: '#44a941',
             backgroundColor: 'rgba(255, 255, 255, 0.7)',
           }}>
           <ScrollView>
@@ -212,7 +212,7 @@ const Lvl1 = ({navigation}) => {
                   style={{
                     fontWeight: 'bold',
                     fontSize: 40,
-                    color: '#ed9b01',
+                    color: '#44a941',
                   }}>
                   {option}
                 </Text>
@@ -232,7 +232,7 @@ const Lvl1 = ({navigation}) => {
       Alert.alert('Correct!');
     } else {
       //Alert.alert('Incorrect answer. Try again.');
-      navigation.navigate('WrongScreen');
+      navigation.navigate('Wrong');
     }
 
     if (currentQuestionIndex + 1 < questions.length) {
@@ -267,10 +267,10 @@ const Lvl1 = ({navigation}) => {
           }}>
           <Text
             style={{
-              color: '#ed9b01',
+              color: '#44a941',
               fontWeight: 'bold',
               fontSize: 45,
-              //shadowColor: '#ed9b01',
+              //shadowColor: '#44a941',
               shadowOffset: {width: 0, height: 6},
               shadowOpacity: 9,
               shadowRadius: 20,
@@ -292,7 +292,7 @@ const Lvl1 = ({navigation}) => {
                     width: 120,
                     backgroundColor: 'rgba(255, 255, 255, 0.7)',
                     borderWidth: 2,
-                    borderColor: '#ed9b01',
+                    borderColor: '#44a941',
                     borderRadius: 20,
                     shadowColor: '#fff',
                     shadowOffset: {width: 0, height: 18},
@@ -302,10 +302,10 @@ const Lvl1 = ({navigation}) => {
                   onPress={handleChangeTimerRunState}>
                   <Text
                     style={{
-                      color: '#ed9b01',
+                      color: '#44a941',
                       fontWeight: 'bold',
                       fontSize: 45,
-                      shadowColor: '#ed9b01',
+                      shadowColor: '#44a941',
                       shadowOffset: {width: 0, height: 18},
                       shadowOpacity: 0.9,
                       shadowRadius: 20,
@@ -325,7 +325,7 @@ const Lvl1 = ({navigation}) => {
                     width: 120,
                     backgroundColor: 'rgba(255, 255, 255, 0.7)',
                     borderWidth: 2,
-                    borderColor: '#ed9b01',
+                    borderColor: '#44a941',
                     borderRadius: 20,
                     shadowColor: '#fff',
                     shadowOffset: {width: 0, height: 18},
@@ -335,10 +335,10 @@ const Lvl1 = ({navigation}) => {
                   onPress={handleChangeTimerRunState}>
                   <Text
                     style={{
-                      color: '#ed9b01',
+                      color: '#44a941',
                       fontWeight: 'bold',
                       fontSize: 45,
-                      shadowColor: '#ed9b01',
+                      shadowColor: '#44a941',
                       shadowOffset: {width: 0, height: 18},
                       shadowOpacity: 0.9,
                       shadowRadius: 20,
@@ -349,7 +349,7 @@ const Lvl1 = ({navigation}) => {
               )}
               <View
                 style={{
-                  borderColor: '#ed9b01',
+                  borderColor: '#44a941',
                   borderRadius: 20,
                   borderWidth: 2,
                   backgroundColor: 'rgba(255, 255, 255, 0.7)',
@@ -365,9 +365,9 @@ const Lvl1 = ({navigation}) => {
                 <Text
                   style={{
                     fontSize: 45,
-                    color: '#ed9b01',
+                    color: '#44a941',
                     fontWeight: 'bold',
-                    shadowColor: '#ed9b01',
+                    shadowColor: '#44a941',
                     shadowOffset: {width: 0, height: 18},
                     shadowOpacity: 0.9,
                     shadowRadius: 20,
@@ -389,7 +389,7 @@ const Lvl1 = ({navigation}) => {
               bottom: 10,
               right: 10,
               borderWidth: 2,
-              borderColor: '#ed9b01',
+              borderColor: '#44a941',
               borderRadius: 20,
               backgroundColor: 'rgba(255, 255, 255, 0.7)',
               alignItems: 'center',
@@ -407,8 +407,8 @@ const Lvl1 = ({navigation}) => {
               style={{
                 fontSize: 40,
                 fontWeight: 'bold',
-                color: '#ed9b01',
-                shadowColor: '#ed9b01',
+                color: '#44a941',
+                shadowColor: '#44a941',
                 shadowOffset: {width: 0, height: 18},
                 shadowOpacity: 0.9,
                 shadowRadius: 20,
