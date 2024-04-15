@@ -241,7 +241,7 @@ const Lvl7 = ({navigation}) => {
   return (
     <View style={{flex: 1}}>
       <ImageBackground
-        source={require('../../assets/bcgr.jpeg')}
+        source={require('../../assets/bgraund.png')}
         style={{flex: 1}}>
         <View
           style={{
